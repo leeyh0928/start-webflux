@@ -59,6 +59,7 @@ public class StartWebfluxApplication {
     }
 
     public static void main(String[] args) {
+//        System.setProperty("reactor.netty.http.server.accessLogEnabled", "true");
 //        System.setProperty("reactor.netty.ioWorkerCount", "100");
         SpringApplication.run(StartWebfluxApplication.class, args);
     }
